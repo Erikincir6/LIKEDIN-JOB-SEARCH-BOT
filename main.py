@@ -4,9 +4,9 @@ from selenium.webdriver.chrome import service as fs
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
-PASSWORD="nG62V!gPu3dTx!M"
-PHONE = "7792012033"
-EMAIL = "erkan0901@gmail.com"
+PASSWORD=""
+PHONE = ""
+EMAIL = ""
 
 chrome_servie = fs.Service(executable_path="C:/Development/chromedriver.exe")
 driver = webdriver.Chrome(service=chrome_servie)
